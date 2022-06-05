@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>NWNC</title>
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <script src="toggle-nav.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <header class="mobile">
+        <div class="hamburger" onclick="toggleNav()">
+        <hr><hr><hr>
+        </div>
+        <a href="index.html" class="logo"><img src="images/NWNClogo.png" alt="NWNC Logo" width= 200></a>
+        <nav class="toggle-nav">
+        <a href= "services.html"> SERVICES</a>
+        <a href= "schedule.html"> SCHEDULE</a>
+        <a href= "membership.html"> MEMBERSHIP</a>
+        <a href= "amenities.html"> AMENITIES</a>
+        </nav>
+    </header>
+    <header class="desktop">
+        <nav class="toggle-nav">
+        <a href= "services.html"> SERVICES</a>
+        <a href= "schedule.html"> SCHEDULE</a> 
+        </nav>
+        <a href="index.html" class="logo"><img src="images/NWNClogo.png" alt="NWNC Logo" width= 200></a>
+        <nav class="toggle-nav">
+        <a href= "membership.html"> MEMBERSHIP</a>
+        <a href= "amenities.html"> AMENITIES</a>
+        </nav>
+    </header>
+    <main>
+        <h1>"NO WORK NO CHECK"</h1>
+        <h2>Let's get to work!  NWNC Athletic Club is home - where nothing is given, only earned. It is our passion to elevate your daily routines through strength, movement, and mindset. Here, you own your greatness.</h2>
+        <a href="#freeintroclass" class="button">CLAIM FREE INTRO CLASS</a>
+        <img src="images/Gym1.png" alt="Gym 1" width=300>
+        <h1>OUR STORY</h1>
+        <h2>NWNC Athletic Club opened in 2019 with the mission of assisting individuals on their health and wellness journey, by prioritizing the power of community. Located in Eau Claire, Wisconsin, NWNC has seen significant growth. Our team consists of dedicated individuals who have the desire to uplift their community. Our variety of classes allow a pathway for all fitness levels.</h2>
+        <img src="images/Gym2.png" alt="Gym 2" width=300>
+        <section id="freeintroclass">
+            <h1>FREE INTRO TRIAL CLASS</h1>
+            <input type="text" id="name" name="name" value=NAME required>
+            <input type="text" id="email" name="email" value=EMAIL required> 
+            <input type="text" id="phone" name="phone" value=PHONE required>
+            <a href="index.html" class="button"> ENROLL NOW </a>
+        </section>
+        <section class="contact">
+        <h1>CONTACT US</h1>
+        <h3>123 Barstow St. Eau Claire, WI 54703</h3>
+        <h3>NWNCAthleticClub@gmail.com</h3>
+        <h3>(715)-123-456</h3>
+        </section>
+    </main>
+    <footer></footer>
+</body>

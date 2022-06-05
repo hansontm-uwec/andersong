@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin: 0
+}
+main{
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+.hamburger{
+    width: 40px;
+    padding: 1rem;
+    position:absolute;
+    left: 1rem
+}
+.hamburger hr{
+    margin: .75rem 0;
+    border-width: 2px;
+    border-style: solid;
+}
+header nav{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    transition: left 1s ease-in-out;
+    top: 10rem;
+}
+header nav a{
+    display: block;
+    color: black;
+    background-color: #fecf3f;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid black;
+    font-family: 'PT Sans', sans-serif;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header.mobile{
+    display: flex;
+}
+header.desktop{
+    display: none;
+}
+.show{
+    left: 0;
+}
+h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 110%;
+}
+h3{
+    color: white;
+    font-family: 'PT Sans', sans-serif; 
+}
+.button{
+    padding: 1rem;
+    width: 13rem;
+    margin: 1rem auto;
+    background-color: #fecf3f;
+    color: black;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    display: block
+}
+input[value=NAME]{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif
+}
+input[value=EMAIL]{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif
+}
+input[value=PHONE]{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif
+}
+input[type=text]{
+    display: block;
+    margin: 1rem auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size:medium
+}
+input[type=submit]{
+    font-size: medium;
+    padding: 1rem;
+    width: 10rem;
+}
+.logo{
+    margin:-4px;
+}
+.contact{
+    background-color: #fffbe2;
+    padding:1rem
+}
+.contact h1, .contact h3{
+    color: black;
+}
+.gold{
+    background-color: #fecf3f;
+    padding: 2rem
+}
+.gold h2, .gold h3{
+    color:black;
+    font-size: larger;
+}
+.platinum{
+    background-color: #c0c0c0;
+    padding: 2rem;
+}
+.platinum h2, .platinum h3{
+    color:black;
+    font-size: larger;
+}
+.dropin{
+    background-color: #fffbe2;
+    padding: 2rem
+}
+.dropin h2, .dropin h3{
+    color: black;
+    font-size: larger;
+}
+.services{
+    background-color: #fecf3f;
+    padding:1rem
+}
+.services h1, .services h2{
+    color: black;
+}
+.services h1{
+    font-size: larger;
+}
+footer{
+    background-color: #fecf3f;
+    padding:3rem;
+}
+@media (min-width: 1200px){
+    .hamburger{
+        display: none;
+    }
+    nav a{
+    background-color: #fecf3f;
+    color: black;
+    padding: 4rem;
+    font-family: 'PT Sans', sans-serif;
+    margin: 5rem
+    }
+    Nav a:hover{
+        background-color: #fffbe2;
+    }
+    .services h1{
+        font-size: 200%;
+    }
+    header nav{
+        position: unset;
+        background-color: unset;
+        width: unset;
+        margin: -8px
+    }
+    header nav a{
+        border: none;
+        display: inline-block;
+    }
+    header nav a:hover{
+        color: black
+    }
+    header.mobile{
+        display: none;
+    }
+    header.desktop{
+        display: flex
+    }
+    main{
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 17rem;
+        margin-bottom: 5rem;
+    }
+}
